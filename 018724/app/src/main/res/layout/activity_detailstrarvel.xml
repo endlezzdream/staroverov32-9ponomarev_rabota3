@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detailstrarvel">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="408dp"
+        android:text="Рим"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="325dp"
+        android:layout_height="133dp"
+        android:text="Рим — столица и крупнейший город Италии, один из старейших городов Европы.  Расположен на реке Тибр, в центральной части Апеннинского полуострова. Большая часть города находится на левом (восточном) берегу Тибра, в его нижнем течении, в 25 км от побережья Тирренского моря.  "
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="337dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="445dp"
+        android:layout_height="330dp"
+        android:src="@drawable/orig"
+        tools:layout_editor_absoluteX="-26dp"
+        tools:layout_editor_absoluteY="-40dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
